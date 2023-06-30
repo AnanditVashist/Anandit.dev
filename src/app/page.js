@@ -4,7 +4,7 @@ import { Inter } from "next/font/google";
 import Nav from "@/components/Nav";
 import { useContext, useState } from "react";
 import Link from "next/link";
-import { NavContext } from "./layout";
+import { NavContext } from "../context/NavContext";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
