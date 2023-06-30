@@ -1,4 +1,4 @@
-import { NavContext } from "@/app/layout";
+import { NavContext } from "../context/NavContext";
 import Link from "next/link";
 import React, { useContext } from "react";
 const DropdownMenu = () => {

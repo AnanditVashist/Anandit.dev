@@ -4,7 +4,7 @@ import React, { useState, useContext } from "react";
 import BarsIcon from "./BarsIcon";
 import CrossIcon from "./CrossIcon";
 import DropdownMenu from "./DropDownMenu";
-import { NavContext } from "@/app/layout";
+import { NavContext } from "../context/NavContext";
 import Link from "next/link";
 const Nav = () => {
 	const navContext = useContext(NavContext);

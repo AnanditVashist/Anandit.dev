@@ -1,3 +1,5 @@
 const { createContext } = require("react");
-
-createContext();
+export const NavContext = createContext({
+	navDisplayed: null,
+	setIsNavDisplayed: null,
+});

@@ -1,6 +1,6 @@
 "use client";
 import React, { useContext } from "react";
-import { NavContext } from "../layout";
+import { NavContext } from "../../context/NavContext";
 
 const Page = () => {
 	const navContext = useContext(NavContext);
