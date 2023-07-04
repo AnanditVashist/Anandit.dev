@@ -8,9 +8,14 @@ const Page = () => {
 		<>
 			<main className={`px-6 pt-6 ${navContext.navDisplayed ? "hidden" : ""} `}>
 				<div className="text-lg text-grey-darkest leading-normal space-y-6">
-					<p className="font-extrabold text-xl text-slate-900">Contact</p>
-					<p>Please fill the form below and I will get back ASAP!</p>
+					<p className="font-semibold text-xl text-slate-900">Contact</p>
+					<p>Please fill the form below and Anandit will get back ASAP!</p>
 					<form className=" rounded-lg " netlify>
+						<label className="text-gray-700">Email</label>
+						<input
+							type="email"
+							className="w-full bg-white border border-gray-300 p-2 rounded-md mt-1 mb-2"
+						/>
 						<label className="text-gray-700">Subject</label>
 						<input
 							type="text"

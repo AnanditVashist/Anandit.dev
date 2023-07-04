@@ -9,9 +9,11 @@ export default function RootLayout({ children }) {
 	return (
 		<NavContext.Provider value={{ navDisplayed, setIsNavDisplayed }}>
 			<html lang="en">
-				<body>
+				<body className="py-8 lg:py-16 px-6 md:px-16 lg:px-24">
 					<Nav></Nav>
-					{children}
+					<div className="lg:pl-32 mt-12">
+						<div class="max-w-md">{children}</div>
+					</div>
 				</body>
 			</html>
 		</NavContext.Provider>

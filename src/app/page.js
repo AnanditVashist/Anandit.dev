@@ -11,43 +11,58 @@ export default function Home() {
 	const navContext = useContext(NavContext);
 	return (
 		<>
-			<main className={`px-6 pt-6 ${navContext.navDisplayed ? "hidden" : ""} `}>
-				<div className="text-lg text-grey-darkest leading-normal space-y-6">
-					<p className="font-extrabold text-xl text-slate-900">About</p>
-					<p className="pt-4">
-						Anandit is an experienced software developer based in Canada.
-					</p>
-					<p>
-						Currently, he is working at{" "}
-						<Link
-							href={"https://getcargolink.com/"}
-							className="font-semibold underline">
-							CargoLink
-						</Link>
-						, a platform for helping truck carriers to improve their
-						cross-border workflow.
-					</p>
-					<p>
-						Previously, he worked at{" "}
-						<Link href={"https://okrx.ca/"} className="font-semibold underline">
-							OkRx
-						</Link>{" "}
-						,a platform helping patient to get easier access to costly
-						medication that requires prior authorization from insurers and{" "}
-						<Link
-							href={"https://ubinome.com/"}
-							className="font-semibold underline">
-							Ubinome
-						</Link>
-						, a digital web agency helping enterprises of all sizes with their
-						software development.
-					</p>
-					<p>
-						When he is not staring at screen, he likes to workout, see whats new
-						in the SaaS space and write about himself in third person.
-					</p>
-				</div>
-			</main>
+			{/* <h1 class="text-xl font-semibold text-black mb-4">About</h1> */}
+			<div class="text-lg text-gray-600 leading-normal space-y-6">
+				<p>Anandit is an experienced full-stack developer based in Canada.</p>{" "}
+				<p>
+					Currently, he's working at{" "}
+					<Link
+						className="underline font-semibold text-black"
+						href={"https://getcargolink.com/"}
+						target="_blank">
+						CargoLink
+					</Link>
+					, a platform which helps truck carriers and custom brokers to
+					streamline their cross-border workflows.
+				</p>{" "}
+				<p>
+					Previously, he worked at{" "}
+					<Link
+						className="underline font-semibold text-black"
+						href={"https://okrx.ca/"}
+						target="_blank">
+						OkRx
+					</Link>
+					, building software that makes it easier for patients to get access to
+					costly medication and{" "}
+					<Link
+						className="underline font-semibold text-black"
+						href={"https://ubinome.com/"}
+						target="_blank">
+						Ubinome
+					</Link>
+					, helping businesses of all sizes with their software needs.
+				</p>{" "}
+				<p>
+					When he's not staring at the screen and writing about himself in third
+					person, he <span className="line-through">likes</span> tries to
+					workout , cook and discover new products on Product Hunt.
+				</p>
+				<p>
+					You can contact him{" "}
+					<Link
+						className="underline font-semibold text-black"
+						href={"/contact"}>
+						here
+					</Link>{" "}
+					or at{" "}
+					<Link
+						className="underline font-semibold text-black"
+						href={"mailto:anandit46@gmail.com"}>
+						anandit46@gmail.com
+					</Link>
+				</p>
+			</div>
 		</>
 	);
 }
