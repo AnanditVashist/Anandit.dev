@@ -15,7 +15,7 @@ export default function Home() {
 			<div class="text-lg text-gray-600 leading-normal space-y-6">
 				<p>Anandit is an experienced full-stack developer based in Canada.</p>{" "}
 				<p>
-					Currently, he's working at{" "}
+					Currently, he&#39;s working at{" "}
 					<Link
 						className="underline font-semibold text-black"
 						href={"https://getcargolink.com/"}
@@ -44,8 +44,8 @@ export default function Home() {
 					, helping businesses of all sizes with their software needs.
 				</p>{" "}
 				<p>
-					When he's not staring at the screen and writing about himself in third
-					person, he <span className="line-through">likes</span> tries to
+					When he&#39;s not staring at the screen and writing about himself in
+					third person, he <span className="line-through">likes</span> tries to
 					workout , cook and discover new products on Product Hunt.
 				</p>
 				<p>
