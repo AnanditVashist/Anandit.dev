@@ -10,8 +10,7 @@ const Page = () => {
 				<div className="text-lg text-grey-darkest leading-normal space-y-6">
 					<p className="font-semibold text-xl text-slate-900">Contact</p>
 					<p>Please fill the form below and Anandit will get back ASAP!</p>
-					<form className="rounded-lg" name="Contact Form" netlify>
-						<input type="hidden" name="form-name" value="Contact Form" />
+					<form className="rounded-lg" name="Contact" netlify>
 						<label className="text-gray-700">Email</label>
 						<input
 							type="email"
