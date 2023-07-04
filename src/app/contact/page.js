@@ -1,12 +1,11 @@
-"use client";
 import React, { useContext } from "react";
-import { NavContext } from "../../context/NavContext";
+//import { NavContext } from "../../context/NavContext";
 
 const Page = () => {
-	const navContext = useContext(NavContext);
+	//const navContext = useContext(NavContext);
 	return (
 		<>
-			<main className={`px-6 pt-6 ${navContext.navDisplayed ? "hidden" : ""} `}>
+			<main className={`px-6 pt-6`}>
 				<div className="text-lg text-grey-darkest leading-normal space-y-6">
 					<p className="font-semibold text-xl text-slate-900">Contact</p>
 					<p>Please fill the form below and Anandit will get back ASAP!</p>
