@@ -15,16 +15,19 @@ const Page = () => {
 						<input
 							type="email"
 							className="w-full bg-white border border-gray-300 p-2 rounded-md mt-1 mb-2"
+							name="email"
 						/>
 						<label className="text-gray-700">Subject</label>
 						<input
 							type="text"
 							className="w-full bg-white border border-gray-300 p-2 rounded-md mt-1 mb-2"
+							name="subject"
 						/>
 						<label className="text-gray-700">Message</label>
 						<textarea
 							type="text"
-							className="w-full bg-white border border-gray-300 p-2 rounded-md mt-1 h-24"></textarea>
+							className="w-full bg-white border border-gray-300 p-2 rounded-md mt-1 h-24"
+							name="message"></textarea>
 						<button
 							type="submit"
 							className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded mt-4">
