@@ -10,7 +10,7 @@ const Page = () => {
 				<div className="text-lg text-grey-darkest leading-normal space-y-6">
 					<p className="font-semibold text-xl text-slate-900">Contact</p>
 					<p>Please fill the form below and Anandit will get back ASAP!</p>
-					<form className=" rounded-lg " netlify>
+					<form className="rounded-lg" data-netlify="true">
 						<label className="text-gray-700">Email</label>
 						<input
 							type="email"
