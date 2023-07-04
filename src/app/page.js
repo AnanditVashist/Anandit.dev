@@ -49,13 +49,7 @@ export default function Home() {
 					workout , cook and discover new products on Product Hunt.
 				</p>
 				<p>
-					You can contact him{" "}
-					<Link
-						className="underline font-semibold text-black"
-						href={"/contact"}>
-						here
-					</Link>{" "}
-					or at{" "}
+					You can contact him at{" "}
 					<Link
 						className="underline font-semibold text-black"
 						href={"mailto:anandit46@gmail.com"}>
